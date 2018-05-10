@@ -5,17 +5,21 @@
 
 div#options-outer {
     margin: 5px;
+    max-width: 600px;
+    margin: 0 auto;
     background: #DDD;
     border-radius: 5px;
+    padding-bottom: 1em;
 }
 
 div#options-inner {
-    padding: 8px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
-div#options-page-title {
-}
-
-div#options-area {
-    margin-top: 10px;
+#options-page-title {
+    margin-bottom: 1em;
 }
