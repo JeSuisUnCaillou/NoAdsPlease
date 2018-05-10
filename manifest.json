@@ -9,7 +9,16 @@
         "38": "images/reoudouodu_38.png",
         "128": "images/reoudouodu_128.png"
     },
-    
+    "content_scripts": [
+        {
+          "matches": [
+            "https://www.tf1.fr/*",
+            "http://www.tf1.fr/*"
+          ],
+          "js": ["js/jquery-1.9.1.min.js", "js/content.js"],
+          "css": ["css/content.css"]
+        }
+      ],
     "browser_action": {
         "default_title": "browser_action: default_title",
         "default_icon": {
