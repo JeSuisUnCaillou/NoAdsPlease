@@ -26,7 +26,7 @@ let createNewElement = (wat_url) => {
     <div class="no-ads-container">
         <a href="${wat_url}" target="_blank" class="no-ads-link">
             <div class="no-ads-image-container"><img class="no-ads-image" src="${url}" /></div>
-            <div>No ads, please</div>
+            <div class="no-ads-text">No ads, please</div>
         </a>
     </div>`
     return new_element_string

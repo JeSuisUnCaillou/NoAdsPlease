@@ -8,7 +8,7 @@
     align-items: center;
     background-image: linear-gradient(90deg,#7b2c9f,#fa1e46);
     width: fit-content;
-    padding: 10px 20px 14px 20px;
+    padding: 0 20px 4px 20px;
     border-radius: 5px;
     box-shadow: inset 0 -4px 0 0 rgba(0,0,0,.4);
     margin-top: 0;
@@ -17,12 +17,28 @@
 .no-ads-link:hover {
     box-shadow: unset;
     margin-top: 4px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
 }
-.no-ads-image-container{
+.no-ads-image-container {
     margin-right: 10px;
+    width: 2em;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .no-ads-image {
     height: 1.5em;
     width: 1.5em;
+    transition: all .2s cubic-bezier(.4,0,.2,1);
+    border-radius: calc(1.5em / 2);
+    box-shadow: 0 2px 5px rgba(0,0,0,.26);
+}
+.no-ads-link:hover > .no-ads-image-container > .no-ads-image {
+    height: 2em;
+    width: 2em;
+    border-radius: 1em;
+}
+.no-ads-text {
+    padding: 10px 0 10px 0;
 }
