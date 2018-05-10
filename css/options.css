@@ -3,6 +3,16 @@
 ** description: custom styling for "html/options.html" file
 */
 
+div.page-title {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+div.page-subtitle {
+    font-size: 16px;
+    line-height: 20px;
+}
+
 div#options-outer {
     margin: 5px;
     max-width: 600px;
