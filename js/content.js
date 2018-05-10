@@ -9,7 +9,7 @@ let placeNewElement = (element) => {
     let new_places = document.getElementsByClassName(new_container)
     if (new_places.length > 0) {
         let new_place = new_places[0]
-        console.log(`Found new place : ${new_place.innerHTML}`)
+        console.log(`Found new place : ${new_places}`)
         new_place.innerHTML += element
     } else {
         // If we didn't find the new place
