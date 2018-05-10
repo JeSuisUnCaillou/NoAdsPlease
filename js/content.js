@@ -17,6 +17,7 @@ let placeNewElement = (element) => {
     }
 }
 
+// Create a new link element with a given url
 let createNewElement = (wat_url) => {
     let new_element_string = `
     <div class="no-ads-container">
