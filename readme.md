@@ -1,21 +1,11 @@
-<html>
-    <head>
-    </head>
-    <body>
-        <h2>Chrome Extension Template</h2>
-        <div><b>Version:</b> 1.0</div>
-        <div><b>Author:</b> Nate McIntyre (nate@tsheets.com)</div>
-        <div><b>Updated:</b> 2013.05.17</div>
-        <div><b>Description:</b> Simple Chrome extension template to kickstart your own Chrome Extension projects. Simply clone this project and you will have all the required basic code necessary to start developing your own browser extension for Chrome.</div>
-        <div><b>Official Google Getting Started Guide:</b> http://developer.chrome.com/extensions/getstarted.html</div>
-        <div><b>Bundled Software / Libraries:</b></div>
-        <div>
-            <ul>
-                <li>jQuery 1.9.1: http://jquery.com/</li>
-                <li>Bootstrap 2.3.1: http://twitter.github.com/bootstrap/index.html</li>
-                <li>Font Awesome 3.0.2: http://fortawesome.github.io/Font-Awesome/</li>
-            </ul>
-        </div>
-        <div>If you find this template helpful and can think of a way to improve it, please do so!</div>
-    </body>
-</html>
+#No ads, please
+
+This is a chrome extension, made to provide an additionnal button under videos of the show "hot-dog pour un champion".
+
+To use this extension :
+
+* Download this repository on your computer
+* In chrome, go to [your extensions](chrome://extensions/)
+* Clic on 'LOAD UNPACKED' and select the folder 'NoAdsPlease' you downloaded on your computer
+* Visit [tf1.fr](https://www.tf1.fr/tmc/burger-quiz/videos/burger-quiz-episode-1.html)
+* Clic on the big button 'No ads, please' below your video, and enjoy your show without ads
