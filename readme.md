@@ -1,8 +1,8 @@
-#No ads, please
+# No ads, please
 
 This is a chrome extension, made to provide an additionnal button under videos of the show "hot-dog pour un champion".
 
-To use this extension :
+## To use this extension :
 
 * Download this repository on your computer
 * In chrome, go to [your extensions](chrome://extensions/)
