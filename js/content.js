@@ -17,6 +17,16 @@ let placeNewElement = (element) => {
     }
 }
 
+let createNewElement = (wat_url) => {
+    let new_element_string = `
+    <div class="no-ads-container">
+        <a href="${wat_url}" target="_blank" class="no-ads-link">
+            <span>No ads, please</span>
+        </a>
+    </div>`
+    return new_element_string
+}
+
 // Actual execution comes here
 // Get the player's part with a source url
 let src_holder = document.getElementById(player_id)
@@ -27,14 +37,8 @@ if (src_holder) {
     let wat_url = raw_wat_url.replace(/^\/\//, 'http://')
     console.log(`Cleaned up WAT url : ${wat_url}`)
 
-    let new_button = `
-    <div class="no-ads-container">
-        <a href="${wat_url}" target="_blank" class="no-ads-link">
-            <span>No ads, please</span>
-        </a>
-    </div>`
-
-    placeNewElement(new_button)
+    let new_button_string = createNewElement(wat_url)
+    placeNewElement(new_button_string)
 } else {
     // If player_id not found
     console.log(`Can't find #${player_id}`)
