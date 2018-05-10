@@ -18,7 +18,10 @@
           "js": ["js/content.js"],
           "css": ["css/content.css"]
         }
-      ],
+    ],
+    "web_accessible_resources": [
+        "images/*.png"
+    ],
     "browser_action": {
         "default_title": "browser_action: default_title",
         "default_icon": {

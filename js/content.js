@@ -19,10 +19,14 @@ let placeNewElement = (element) => {
 
 // Create a new link element with a given url
 let createNewElement = (wat_url) => {
+    let image_url = "images/reoudouodu_128.png"
+    let extension_id = chrome.i18n.getMessage("@@extension_id")
+    let url = `chrome-extension://${extension_id}/${image_url}`
     let new_element_string = `
     <div class="no-ads-container">
         <a href="${wat_url}" target="_blank" class="no-ads-link">
-            <span>No ads, please</span>
+            <div class="no-ads-image-container"><img class="no-ads-image" src="${url}" /></div>
+            <div>No ads, please</div>
         </a>
     </div>`
     return new_element_string
