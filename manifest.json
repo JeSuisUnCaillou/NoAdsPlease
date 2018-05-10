@@ -5,16 +5,16 @@
     
     "description": "Tu veux regarder hot-dog pour un champion sans pubs ? Viens. On est bien.",
     "icons": {
-        "19": "images/icon_19.png",
-        "38": "images/icon_38.png",
-        "128": "images/icon_128.png"
+        "19": "images/reoudouodu_19.png",
+        "38": "images/reoudouodu_38.png",
+        "128": "images/reoudouodu_128.png"
     },
     
     "browser_action": {
         "default_title": "browser_action: default_title",
         "default_icon": {
-            "19": "images/icon_19.png",
-            "38": "images/icon_38.png"
+            "19": "images/reoudouodu_19.png",
+            "38": "images/reoudouodu_38.png"
         },
         "default_popup": "html/main.html"
     },
